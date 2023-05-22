@@ -70,7 +70,7 @@
       </layout>
      </item>
      <item>
-      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,5,0,0,0">
+      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,5,0,0,0,0,0">
        <item>
         <widget class="QLabel" name="label_3">
          <property name="text">
@@ -172,6 +172,44 @@
          </item>
          <item>
           <widget class="QLineEdit" name="LE_acc"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>步骤三输入数据值（清洗后的原始数据）并预测：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <item>
+          <widget class="QLabel" name="label_6">
+           <property name="text">
+            <string>数据值：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="LE_test"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="PB_confirm">
+           <property name="text">
+            <string>预测</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_7">
+           <property name="text">
+            <string>流失预测结果</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="LE_result"/>
          </item>
         </layout>
        </item>
